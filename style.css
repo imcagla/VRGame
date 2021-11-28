@@ -1,0 +1,84 @@
+.text-color {
+    background: -webkit-linear-gradient(92.64deg, #C98FFF 3.63%, #974AFF 35.96%, #6D66FF 74.19%, #ABAFFF 98.62%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-image: url('images/bg.png');
+    background-repeat:no-repeat;
+}
+
+.cart-menu {
+    background-image: url('images/cartmenu.png');
+    background-repeat: no-repeat;
+}
+
+.overlay {
+    /* left: auto;
+    right: 9.6%; */
+    z-index: -1;
+}
+
+.btn-primary{
+    background: linear-gradient(91.12deg, #9925FE 0.96%, #5C31F1 45.63%, #2935EC 99.54%);
+    border: none;
+}
+
+.text-primary {
+    color: linear-gradient(91.12deg, #9925FE 0.96%, #5C31F1 45.63%, #2935EC 99.54%);
+}
+
+.rotate-text {
+    transform:rotateZ(-90deg);
+}
+
+.image-group {
+    /* width: 50vw;
+    height: 350px; */
+    transform: scale(0.8);
+    /* object-fit:fill; */
+}
+
+.start-15 {
+    left: 15%;
+}
+.start-85 {
+    left: 85%;
+}
+.start-22 {
+    left: 22%;
+}
+.start-25 {
+    left: 25%;
+}
+.start-45 {
+    left: 45%;
+}
+.end-80 {
+    right: 80%;
+}
+.top-75 {
+    top: 75%;
+}
+/* .product-style {
+    position: relative;
+    top: 200px;
+} */
+
+.main-img {
+    z-index: -9;
+}
+
+.z-top {
+    z-index: 9999999;
+}
+
+.z-bottom {
+    z-index: -99999;
+}
+
+/* .scroll-style {
+    margin-top: 300px;
+} */
