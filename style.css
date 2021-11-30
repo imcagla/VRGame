@@ -8,7 +8,8 @@ body {
     font-family: 'Montserrat', sans-serif;
     background-image: url('images/bg.png');
     background-repeat:no-repeat;
-    background-color: #2935EC;
+    background-color: #0d0144;
+    background-size:cover;
 }
 
 .cart-menu {
@@ -68,9 +69,6 @@ body {
     top: 200px;
 } */
 
-.main-img {
-    z-index: -9;
-}
 
 .z-top {
     z-index: 9999999;
@@ -82,4 +80,12 @@ body {
 
 /* .scroll-style {
     margin-top: 300px;
+} */
+
+/* @media screen and (max-width: 576px ) {
+    .vr-person-img {
+    width: 95vw;
+    height: 100%;
+    object-fit: cover;
+}
 } */
