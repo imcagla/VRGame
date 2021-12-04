@@ -7,7 +7,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
     background-image: url('images/bg.png');
-    background-repeat:no-repeat;
+    background-repeat: repeat;
     background-color: #0d0144;
     background-size:cover;
 }
@@ -17,17 +17,16 @@ body {
     background-repeat: no-repeat;
 }
 
-.overlay {
-    /* left: auto;
-    right: 9.6%; */
-    z-index: -1;
-}
-
-.btn-primary{
+.btn-primary {
     background: linear-gradient(91.12deg, #9925FE 0.96%, #5C31F1 45.63%, #2935EC 99.54%);
     border: none;
 }
 
+.btn:hover, .btn div:hover {
+    background: #fff;
+    transition: 0.5s;
+    color: #9925FE !important;
+}
 
 .text-primary {
     color: linear-gradient(91.12deg, #9925FE 0.96%, #5C31F1 45.63%, #2935EC 99.54%);
@@ -38,10 +37,17 @@ body {
 }
 
 .image-group {
-    /* width: 50vw;
-    height: 350px; */
     transform: scale(0.8);
-    /* object-fit:fill; */
+}
+
+.scroll-vector:hover {
+    transform: scale(1.5);
+    transition: 0.5s;
+}
+
+.nav-items:hover {
+    color: white !important;
+    transition: 0.5s;
 }
 
 .start-15 {
@@ -65,11 +71,6 @@ body {
 .top-75 {
     top: 75%;
 }
-/* .product-style {
-    position: relative;
-    top: 200px;
-} */
-
 
 .z-top {
     z-index: 9999999;
@@ -79,14 +80,3 @@ body {
     z-index: -99999;
 }
 
-/* .scroll-style {
-    margin-top: 300px;
-} */
-
-/* @media screen and (max-width: 576px ) {
-    .vr-person-img {
-    width: 95vw;
-    height: 100%;
-    object-fit: cover;
-}
-} */
